@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.wrapper {
+}
+
+/* iphone5 */
+@media all and (max-width: 360px) {
+	}
+}
+
+/* pc */
+@media all and (min-width: 768px) {
+
+}
