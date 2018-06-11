@@ -1,0 +1,117 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/* common
+--------------------------------------------------*/
+
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;/* 仮 */
+	font-size: 100%;/* 16px */
+	color: #1e2f46;
+}
+
+.inner {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.pc_obj {
+	display: block;
+}
+
+.sp_obj {
+	display: none;
+}
+
+.bg_gray {
+	background: #f3f7fa;
+}
+
+.bg_orange {
+	background: #f77f2e;
+}
+
+.bg_white {
+	background: #ffffff;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: left;
+}
+
+.t_center {
+	text-align: center;
+}
+
+.t_left {
+	text-align: left;
+}
+
+.t_right {
+	text-align: right;
+}
+
+/* 文字間調整 */
+.ls05 {
+	letter-spacing: 0.5px;
+}
+
+.indent {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+/* メニューオーバーレイ */
+.overlay {
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 50;
+	display: none;
+}
+
+/* pc */
+@media all and (min-width: 768px) {
+	
+	/* header
+	--------------------------------------------------*/
+	
+}
+
+/* sp */
+@media all and (max-width: 767px) {
+	
+	.sp_obj {
+		display: block;
+	}
+	
+	.pc_obj {
+		display: none;
+	}
+	
+	.inner {
+		width: 92%;
+		margin: 0 auto;
+	}
+	
+	img {
+		width: 100%;
+	}
+	
+	/* header
+	--------------------------------------------------*/
+	
+	/* footer
+	--------------------------------------------------*/
+	
+}
+
+/* iphone5 */
+@media all and (max-width: 360px) {
+
+}
